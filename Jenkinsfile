@@ -2,7 +2,7 @@
 def mytools = new org.devops.tools()
 pipeline {
 
-	agent { label  "build" }
+	agent any
 
 	stages {
 		stage("build"){
